@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="website for quotes, quotes for inspiration, quotes for coders, poetry for coders"
+    />
+    <meta
+      name="keywords"
+      content="quotes, inspirational quotes, poetry, beginner coding"
+    />
+    <!--Title-->
+    <title>Coders quotes</title>
+    <!--Favicon-->
+    <!--Favicon-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_io/favicon-16x16.png"
+    />
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <a href="index.html">
+        <h4 id="logo">Coders Quotes</h4>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav class="navbar">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="our_quotes.html">Our quotes</a></li>
+          <li><a href="" class="active">Your quotes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Main Content-->
+    <main>
+
+
+        <div class="box">
+
+            <div class ="container">
+
+                <div class="top-header">
+                    <span>Your turn!</span>
+                    <h6>Send us your quotes!</h6>
+                </div>
+
+                <div class="input-field">
+                    <input type="text" class="input" placeholder="Your name" required>
+                    <i class="fa-solid fa-address-card"></i>
+                </div>
+                <div class="input-field">
+                    <input type="text" class="input" placeholder="Your quote" required>
+                    <i class="fa-regular fa-comment-dots"></i>
+                </div>
+                <div class="input-field">
+                    <form action="submit_form.php" method="post"></form>
+                    <input type="submit" class="submit" value="Submit!">
+                </div>
+                <div class="bottom">
+                    <div class="left">
+                        <input type="checkbox" id="check">
+                        <label for="check">Can we publish your quote?</label>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!--Footer-->
+    <footer id="footer">
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Youtube page (opens in a new tab)"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <!-- Font awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/ef72462342.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
